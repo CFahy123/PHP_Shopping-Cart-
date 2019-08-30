@@ -1,0 +1,28 @@
+form {
+    margin-top:1rem;
+}
+
+.products {
+    border:1px solid #333;
+    background-color: #f1f1f1;
+    padding:2rem;
+    border-radius:5px;
+}
+
+
+
+.products input .btn {
+    margin-top: 5px;
+}
+
+.button {
+    background: #6394F8;
+    color: white;
+    text-align: center;
+    padding:1rem;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 25px 0 15px 0;
+}
