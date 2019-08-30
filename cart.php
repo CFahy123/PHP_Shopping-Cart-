@@ -85,7 +85,7 @@ function print_pretty_array($array){
 <body>
     <div class="container">
     <?php
-    $connect = mysqli_connect('localhost','root','root','cart');
+    $connect = mysqli_connect();
     $query = 'SELECT * FROM products ORDER BY id ASC';
     $result = mysqli_query($connect,$query);
     
